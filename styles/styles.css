@@ -1,0 +1,49 @@
+*{
+    width: 390px;
+    height: 844px;
+    margin: 0;
+}
+
+section{
+    position: absolute;
+    width: 390px;
+    height: 844px;
+}
+
+.photo{
+    position: absolute;
+    z-index: -1;
+}
+
+#photoDay{
+    display: block;
+}
+
+#photoNight{
+    display: none;
+}
+
+#clock{
+    width: max-content;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    /* border: 3px solid white; */
+
+    font-family: "Lucida Console";
+    font-size: 40px;
+}
+
+#date{
+    width:  max-content;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 100px; */
+    /* border: 3px solid white; */
+
+    font-family: "Lucida Console";
+    font-size: 30px;
+}
+
